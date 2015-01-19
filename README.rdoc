@@ -3,12 +3,19 @@
 * Ruby version 2.2.0
 
 # System dependencies - n/a
+
 # Configuration - n/a
+
 # Database creation - n/a
+
 # Database initialization - n/a
+
 # How to run the test suite - n/a
+
 # Services (job queues, cache servers, search engines, etc.) - n/a
+
 # Deployment instructions - n/a
+
 * ...
 
 Please feel free to use a different markup language if you do not plan to run
