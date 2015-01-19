@@ -1,2 +1,2 @@
 ==READ ME
-Online repository created to house website files for Ruby-Wars.com
+Online repository created to house website files for www.Ruby-Wars.com
