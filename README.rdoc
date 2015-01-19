@@ -1,5 +1,0 @@
-== README
-
-* Ruby version 2.2.0
-
-Repository created to house the source files for www.ruby-wars.com

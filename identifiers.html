@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"/>
+
+<html>
+	<body>
+		<head>
+			<meta charset="UTF-8"/>
+			<link rel="stylesheet" href="style.css" type="text/css"/>
+			<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+			<link rel="shortcut icon" type="image/png" href="http://ruby-wars.com/favicon.png"/>
+			<meta name="description" content="Ruby Wars is a website blog dedicated to my personal journey in learning Ruby and Rails."/>
+			<meta name="keywords" content="Ruby and Rails, Ruby Blog, Ruby Information, Ruby language dictionary, Ruby dictionary"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+			<title>Ruby Wars | Ruby on Rails Tutorial</title>
+			<!-- pop out jquery starts -->
+			<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.js"></script>
+			<script type="text/javascript">
+			$(document).ready(function(){
+				$(".trigger").click(function(){
+					$(".panel").toggle("fast");
+					$(this).toggleClass("active");
+					return false;
+				});
+			});
+			</script>
+			<!-- pop out jquery ends -->
+		</head>
+		<main>
+			<header>
+				<h1>Ruby Wars</h1>
+				<h2>My Ruby and Rails Journal with a Star Wars Twist</h2>
+			</header>
+
+			<nav></nav>
+			<div id="mobilenav"></div>
+
+			<section>
+				<div class="leia"></div>
+			
+				<h1>Ruby Identifiers</h1> 
+				<p>Notes and take aways while reading The Well-Grounded Rubyist by David A. Black.</p>
+
+				<div class="content">
+					<article> 
+						<h1>The Identifier Family Tree</h1>
+						<h2>Variables</h2>
+						<p><strong>Local </strong>x, string, __abc__, start_value, and firstName</p>
+						<ul><li>Local variables start with a lowercase letter or an underscore and consist of letters, underscores, and/ or digits.<li></ul>
+						<p><strong>Instance </strong>@age, @last_name</p>
+						<ul><li>Instance variables serve the purpose of storing information for individual objects. Instance variables always start with a single at-sign and consist thereafter of the same character set as local variables.</li></ul>
+						<p><strong>Class </strong>@@running_total</p>
+						<ul><li>Class variables store information per class hierarchy and follow the same rules as instance variables, ecept that they start with two at-signs.</li></ul>
+						<p><strong>Global </strong>$population</p>
+						<ul><li>Global variables are recognizable by their leading dollar sign. The segment after the dollar sign doesn't follow local-variable naming conventions; there are global variables called $:, $1, and $/, as well as $stdin and $LOAD_PATH. Non-alphanumeric global variables are usually predefined, so you don't need to worry about which punctuation marks are legal.</ul></li>
+						<h2>Constants</h2>
+						<p><strong>Constants </strong>A, String, FirstName, and STDIN</p>
+						<ul><li>Constants begin with an uppercase letter. It's customary to use either camelcase or underscore-separated all-uppercase-words in composing constant names from multiple words.</li></ul>
+						<h2>Keywords</h2>
+						<p><strong>class </strong>For Class Definitions</p>
+						<p><strong>def </strong>For Method Definitions</p>
+						<p><strong>if </strong>Conditional Execution</p>
+						<p><strong>__FILE__ </strong>The Name of the File Currently Being Execute</p>
+						<ul><li>Ruby has numerous keywords, about 40 of them, and they're generally short, single-word (as opposed to underscore-composed) indentifiers.</li></ul>
+						<h2>Method Names</h2>
+						<p><strong>Method Names </strong>x?, string!, __abc__, start_value, and firstName</p>
+						<ul><li>Names of methods in Ruby follow the same rules and conventions as local variables (except that they can end with ?, !, or =). This is by design, methods don't call attention to themselves as methods but rather blend into the texture of a program as, simply, expressions that provide a value. In some contexts you can't tell, just by looking at an expression, whether you're seeing a local variable or a method name-and that's intentional.</ul></li>
+					</article>
+				</div>
+
+				<div class="content">
+					<article> 
+						<h1>Language Semantics</h1>
+						<h2>Method Calls, Messages, and Ruby Objects</h2>
+						<ul>
+							<li><strong>Objects </strong>Ruby sees all data structures and values including integers and strings, and also including complex data structures (like arrays) as objects. Every object is capable of understanding a certain set of messages. Each message that an object understands corresponds directly to a <em>method</em>.</li>
+							<li><strong>Method </strong> a named, executable routine whose execution the object has the ability to trigger.</li>
+							<li><strong>Object Representation </strong>Objects are represented either by literal constructors-like "quotation marks" for strings, or by variables to which they have been bound.</li>
+							<li><strong>Message Sending </strong> is achieved via the special dot operator (the message to the right fo the dot is sent to the object on the left of the dot).</li>
+						</ul>
+					</article>
+				</div>
+
+				<div class="content">
+					<article> 
+						<h1>Resources</h1>
+						<a href="http://www.amazon.com/The-Well-Grounded-Rubyist-David-Black/dp/1933988657" target="_blank" />The Well Grounded Rubyist by David A. Black on Amazon</a>
+					</article>
+				</div>
+			</section>
+			<!-- pop out navigation starts -->
+			<section class="secondaryNav">
+
+				<div class="panel">
+					<h3>Other Languages</h3>
+					<p>The journey doesn't end at Ruby and Rails. Below you'll find my HTML5, CSS3 and Javascript journals.</p>
+
+				<div style="clear:both;"></div>
+					<div class="columns">
+						<div class="colleft">
+							<h3>HTML & CSS</h3>
+							<ul>
+								<li><a href="/" title="cascade">Cascade Order</a></li>
+								<li><a href="/" title="structures">Structures</a></li>
+								<li><a href="/" title="transitions">Transitions</a></li>
+								<li><a href="/" title="sass">Sass</a></li>
+								<li><a href="/" title="mobile">Mobile</a></li>
+							</ul>
+						</div>
+
+						<div class="colright">
+							<h3>Javascript</h3>
+							<ul>
+								<li><a href="/" title="variables">Variables</a></li>
+								<li><a href="/" title="files">File Naming</a></li>
+								<li><a href="/" title="operators">Operators</a></li>
+								<li><a href="/" title="popout">Pop Out Nav</a></li>
+								<li><a href="/" title="jquery">Jquery</a></li>
+							</ul>
+						</div>
+					</div>
+					<div style="clear:both;"></div>
+					
+				</div>
+				<a class="trigger" href="#">more</a>
+
+			</section>
+			<!-- pop out navigation ends -->
+		</main>
+
+		<footer></footer>
+	</body>	
+	<script src="cta.js"></script>
+</html>

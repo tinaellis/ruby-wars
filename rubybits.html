@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"/>
+
+<html>
+	<body>
+		<head>
+			<meta charset="UTF-8"/>
+			<link rel="stylesheet" href="style.css" type="text/css"/>
+			<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+			<link rel="shortcut icon" type="image/png" href="http://ruby-wars.com/favicon.png"/>
+			<meta name="description" content="Ruby Wars is a website blog dedicated to my personal journey in learning Ruby and Rails."/>
+			<meta name="keywords" content="Ruby and Rails, Ruby Blog, Ruby Information, Ruby language dictionary, Ruby dictionary"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+			<title>Ruby Wars | Ruby on Rails Tutorial</title>
+			<!-- pop out jquery starts -->
+			<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.js"></script>
+			<script type="text/javascript">
+			$(document).ready(function(){
+				$(".trigger").click(function(){
+					$(".panel").toggle("fast");
+					$(this).toggleClass("active");
+					return false;
+				});
+			});
+			</script>
+			<!-- pop out jquery ends -->
+	</head>
+		<main>
+			<header>
+				<h1>Ruby Wars</h1>
+				<h2>My Ruby and Rails Journal with a Star Wars Twist</h2>
+			</header>
+
+			<nav></nav>
+			<div id="mobilenav"></div>
+
+			<section>
+				<div class="stormtrooper"></div>
+			
+				<h1>Ruby Bits</h1> 
+				<p>Class notes from the Code School Ruby Bits course.</p>			
+
+				<div class="content">
+					<article> 
+						<h1>Basic Ruby Commands</h1>
+						<p><strong>echo </strong>mimics whatever text you placed next to the command</p>
+						<p><strong>ruby -v </strong>checks which version of Ruby is installed on your computer</p>
+						<p><strong>rails -v </strong>checks which version of Ruby is installed on your computer</p>
+						<p><strong>drwxr-xr-x </strong>(read-write-execute)</p>
+						<p><strong>command+k </strong>clears your shit</p>
+						<p><strong>puts </strong>simply writes on the screen what ever comes after it</p>
+						<p><strong>Ruby-Doc.org </strong>a index of files, classes and methods in Ruby 2.0.0</p>
+
+						<p><strong>Accessors </strong>are variables attached to an object which can be used outside the object. (entry.time = Time.now)</p>
+
+						<p><strong>Instance variables </strong>are the same variables you're using for accessors when inside the object. Like in a method definition. (@time = Time.now)</p>
+
+						<p><strong>blog.sort_by { |entry| entry.time }.reverse </strong>sort blog entries from newest to oldest</p>
+
+						<p><strong>attr_accessor </strong>there are many attribute methods like this which add little settings to classes</p>
+
+						<p><strong>File.foreach </strong>is a method which opens a file and hands each line to the block</p>
+
+						<p><strong>arguments </strong>are a list of things sent into a method</p>
+
+						<p><strong>block </strong>bit of ruby code surrounded by curly brackets 5.times { print "Odelay!" }</p>
+
+						<p><strong>arrays </strong>are lists for storing things in order</p>
+
+						<p><strong>variables </strong>save a thing and give it a name. You used the equals sign to do this .. like ticket = [14, 37, 18]</p>
+
+						<p><strong>Hash Arguments </strong>options = {} - hash argument / allows items to pass through without defining them. Then when you go to "call" those items you will then know the meaning of what is included within the hash (:lat => 28,)</p>
+
+						<p><strong>class </strong>use a class when data is associated with a specific behavior</p>
+						<p>Classes should include a State on the data and a Behavior on the data. In this example Format is the Behavior and Initialize is the State:</p>
+						<ul>
+							<li>  class Name</li>
+							<li>    def initialize(first, last = nil)</li>
+							<li>      @first = first</li>
+							<li>      @last = last</li>
+							<li>    end</li>
+							<li>  def format</li>
+						</ul>
+					</article>
+				</div>
+
+				<div class="content-two">
+					<article> 
+						<h1>Resources</h1>
+						<a href="https://www.codeschool.com/courses/ruby-bits" target="_blank" />More information about the Code School course Ruby Bits</a>
+					</article>
+				</div>
+			</section>
+			<!-- pop out navigation starts -->
+			<section class="secondaryNav">
+
+				<div class="panel">
+					<h3>Other Languages</h3>
+					<p>The journey doesn't end at Ruby and Rails. Below you'll find my HTML5, CSS3 and Javascript journals.</p>
+
+				<div style="clear:both;"></div>
+					<div class="columns">
+						<div class="colleft">
+							<h3>HTML & CSS</h3>
+							<ul>
+								<li><a href="/" title="cascade">Cascade Order</a></li>
+								<li><a href="/" title="structures">Structures</a></li>
+								<li><a href="/" title="transitions">Transitions</a></li>
+								<li><a href="/" title="sass">Sass</a></li>
+								<li><a href="/" title="mobile">Mobile</a></li>
+							</ul>
+						</div>
+
+						<div class="colright">
+							<h3>Javascript</h3>
+							<ul>
+								<li><a href="/" title="variables">Variables</a></li>
+								<li><a href="/" title="files">File Naming</a></li>
+								<li><a href="/" title="operators">Operators</a></li>
+								<li><a href="/" title="popout">Pop Out Nav</a></li>
+								<li><a href="/" title="jquery">Jquery</a></li>
+							</ul>
+						</div>
+					</div>
+					<div style="clear:both;"></div>
+					
+				</div>
+				<a class="trigger" href="#">more</a>
+
+			</section>
+			<!-- pop out navigation ends -->
+		</main>
+
+		<footer></footer>
+	</body>	
+	<script src="cta.js"></script>
+</html>

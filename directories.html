@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"/>
+
+<html>
+	<body>
+		<head>
+			<meta charset="UTF-8"/>
+			<link rel="stylesheet" href="style.css" type="text/css"/>
+			<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+			<link rel="shortcut icon" type="image/png" href="http://ruby-wars.com/favicon.png"/>
+			<meta name="description" content="Ruby Wars is a website blog dedicated to my personal journey in learning Ruby and Rails."/>
+			<meta name="keywords" content="Ruby and Rails, Ruby Blog, Ruby Information, Ruby language dictionary, Ruby dictionary"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+			<title>Ruby Wars | Ruby on Rails Tutorial</title>
+			<!-- pop out jquery starts -->
+			<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.js"></script>
+			<script type="text/javascript">
+			$(document).ready(function(){
+				$(".trigger").click(function(){
+					$(".panel").toggle("fast");
+					$(this).toggleClass("active");
+					return false;
+				});
+			});
+			</script>
+			<!-- pop out jquery ends -->
+		</head>
+		<main>
+			<header>
+				<h1>Ruby Wars</h1>
+				<h2>My Ruby and Rails Journal with a Star Wars Twist</h2>
+			</header>
+
+			<nav></nav>
+			<div id="mobilenav"></div>
+
+			<section>
+				<div class="r2d2"><img src="images/c3podig.png" alt="some_text"></div>
+			
+				<h1>Directories and Files</h1> 
+				<p>Ruby notes from Master Levi - October 30th 2013.</p>				
+
+				<div class="content">
+					<article> 
+						<h1>Working With Directories And Files - Navigating The Terminal</h1>
+						<h2>Using the "cd" command</h2>
+							<p><strong>cd </strong>short for Change Directory</p>
+							<p><strong>cd </strong>type "cd" any time and it will take you to your home directory</p>
+							<p><strong>cd .. </strong>will bring you back up through your folder directory</p>
+							<p><strong>cd /../.. </strong>will bring you 2 levels up your folder directory</p>
+							<p><strong>cd - </strong>takes you back to the folder you were just in</p>
+							<p><strong>cd / </strong>takes you to the lowest level file of your current directory</p>
+							<p><strong>cp foldername </strong>copies directory to a new location</l>
+							<p><strong>cp -r </strong>foldername Folder Junk/</p>
+							<p><strong>cd d+tab </strong>will list all folders that start with the letter d (etc)</p>
+						<h2>Knowing Where You Are</h2>
+							<p><strong>pwd </strong>lists the path on your system of where your user currently is</p>
+							<p><strong>ls </strong>lists content in the current directory you’re in</p>
+							<p><strong>la </strong>passes invisible content permission types</p>
+						<h2>Managing Files and Folders</h2>
+							<p><strong>mkdir </strong>make directory / if spaces use quotation marks around the folder name</p>
+							<p><strong>rm -d foldername </strong>deletes folder. You cannot delete a directory that has files within it</p>
+							<p><strong>rm -rf foldername </strong>force removes the folder (handy if the folder has files within it)</p>
+							<p><strong>rm filename </strong>deletes file</p>
+							<p><strong>touch some_file.txt </strong>makes a new file</p>
+							<p><strong>mv filename </strong>allows you to rename a file. Example: (mv another.rb file.rb). This command also allows you to move the file to another location. Example: (mv another.rb desktop/another.rb</p>
+						<h2>Opening Windows and Files</h2>
+							<p><strong>subl . </strong>opens your current folder directory within Sublime</p>
+							<p><strong>command+t </strong>opens a new window</p>
+					</article>
+				</div>
+
+				<div class="content-two">
+					<article> 
+						<h1>Resources</h1>
+						<a href="http://net.tutsplus.com/tutorials/ruby/ruby-for-newbies-working-with-directories-and-files/" target="_blank" />More information about directories and files.</a>
+					</article>
+				</div>
+			</section>
+
+			<!-- pop out navigation starts -->
+			<section class="secondaryNav">
+
+				<div class="panel">
+					<h3>Other Languages</h3>
+					<p>The journey doesn't end at Ruby and Rails. Below you'll find my HTML5, CSS3 and Javascript journals.</p>
+
+				<div style="clear:both;"></div>
+					<div class="columns">
+						<div class="colleft">
+							<h3>HTML & CSS</h3>
+							<ul>
+								<li><a href="/" title="cascade">Cascade Order</a></li>
+								<li><a href="/" title="structures">Structures</a></li>
+								<li><a href="/" title="transitions">Transitions</a></li>
+								<li><a href="/" title="sass">Sass</a></li>
+								<li><a href="/" title="mobile">Mobile</a></li>
+							</ul>
+						</div>
+
+						<div class="colright">
+							<h3>Javascript</h3>
+							<ul>
+								<li><a href="/" title="variables">Variables</a></li>
+								<li><a href="/" title="files">File Naming</a></li>
+								<li><a href="/" title="operators">Operators</a></li>
+								<li><a href="/" title="popout">Pop Out Nav</a></li>
+								<li><a href="/" title="jquery">Jquery</a></li>
+							</ul>
+						</div>
+					</div>
+					<div style="clear:both;"></div>
+					
+				</div>
+				<a class="trigger" href="#">more</a>
+
+			</section>
+			<!-- pop out navigation ends -->
+		</main>
+
+		<footer></footer>
+	</body>	
+	<script src="cta.js"></script>
+</html>
