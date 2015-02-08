@@ -1,5 +1,5 @@
  * {
-    font-family: "Arial Black", Gadget, sans-serif;
+  font-family: "Arial Black", Gadget, sans-serif;
 }
 
 body {
@@ -26,7 +26,7 @@ header {
 	padding: 5px 0 5px 20px;
 	margin: 0 0 0 0;
 	-moz-text-shadow: 1px 1px 1px #464646;
-    text-shadow: 1px 1px 1px #464646;
+  text-shadow: 1px 1px 1px #464646;
 }
 
 header h1 {
@@ -42,7 +42,7 @@ header h2 {
 
 nav {
 	float: left;
-    width: 30%;
+  width: 30%;
 
 }
 
@@ -59,10 +59,10 @@ nav ul li {
 }
 
 nav ul li a {
-    display:block;
-    width: 75%;
-    padding: 2px 0 2px 10px;
-    background: #274a93;
+  display:block;
+  width: 75%;
+  padding: 2px 0 2px 10px;
+  background: #274a93;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	font-family: "Arial Black", Gadget, sans-serif;
@@ -70,23 +70,23 @@ nav ul li a {
 	font-size: 14px;
 	font-weight: normal;
 	border:1px solid #050b16;
-    color: #ffffff; 
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 	-moz-text-shadow: 1px 1px  #050b16;
-    text-shadow: 1px 1px #050b16;
+  text-shadow: 1px 1px #050b16;
 }
 
 nav ul li a:hover {
 	background: #5f78aa;
 	-webkit-transition: all .4s ease-out;
-    -moz-transition: all .4s ease-out;
-    transition: all .4s ease-out;
+  -moz-transition: all .4s ease-out;
+  transition: all .4s ease-out;
 }
 
 section {
 	float: right;
-    width: 70%;
-    margin: 10px 0 0 0;
+  width: 70%;
+  margin: 10px 0 0 0;
 }
 
 section .r2d2 {
@@ -146,12 +146,12 @@ section .leia:hover {
 }
 
 section h1 {
-    font-size: 36px; 
-    margin: 0px;
+  font-size: 36px;
+  margin: 0px;
 }
 
 section p {
-	font-size:14px; 
+	font-size:14px;
 	margin: 0 0 5px 0;
 	font-family: Gadget, sans-serif;
 }
@@ -173,13 +173,13 @@ section .content-two {
 }
 
 section .content-two a {
-	font-size:14px; 
-	margin: 0 0 0 20px; 
+	font-size:14px;
+	margin: 0 0 0 20px;
 }
 
 section .content-two a:hover {
-	font-size:14px; 
-	margin: 0 0 0 20px; 
+	font-size:14px;
+	margin: 0 0 0 20px;
 }
 
 section article {
@@ -188,12 +188,12 @@ section article {
 }
 
 section article h1 {
-	font-size: 20px; 
+	font-size: 20px;
 	color: #000000;
 }
 
 section article p {
-	font-size:14px; 
+	font-size:14px;
 	font-family: Gadget, sans-serif;
 	margin-left:10px;
 	margin-top:-5px;
@@ -201,14 +201,14 @@ section article p {
 
 section article ul li {
 	list-style-type:none;
-	font-size:14px; 
+	font-size:14px;
 	font-family: Gadget, sans-serif;
 	font-weight: normal;
 	margin-top:10px;
 }
 
 section article a {
-	font-size:14px; 
+	font-size:14px;
 	font-family: Gadget, sans-serif;
 	color:#274a93;
 }
@@ -216,12 +216,12 @@ section article a {
 section article a:hover {
 	color: #6384c9;
 	-webkit-transition: all .4s ease-out;
-    -moz-transition: all .4s ease-out;
-    transition: all .4s ease-out;
+  -moz-transition: all .4s ease-out;
+  transition: all .4s ease-out;
 }
 
 .content article h2 {
-	font-size: 16px; 
+	font-size: 16px;
 	font-weight: normal;
 	font-family: Gadget, sans-serif;
 	margin: 10px 0 2px;
@@ -253,7 +253,7 @@ a:focus {
 	-webkit-border-bottom-right-radius: 20px;
 	width: 330px;
 	height: auto;
-	padding: 30px 30px 30px 130px;
+	padding: 30px 30px 30px 135px;
 	opacity: .85;
 }
 
@@ -286,12 +286,11 @@ a.trigger{
 	position: absolute;
 	text-decoration: none;
 	top: 300px; left: 0;
-	font-size: 16px;
+	font-size: 15px;
 	letter-spacing:-1px;
 	font-family: verdana, helvetica, arial, sans-serif;
 	color:#fff;
 	padding: 20px 40px 20px 15px;
-	font-weight: 700;
 	background:#274a93 url(images/plus.png) 85% 55% no-repeat;
 	border:1px solid #797979;
 	-moz-border-radius-topright: 20px;
@@ -307,12 +306,11 @@ a.trigger:hover{
 	position: absolute;
 	text-decoration: none;
 	top: 300px; left: 0;
-	font-size: 16px;
+	font-size: 15px;
 	letter-spacing:-1px;
 	font-family: verdana, helvetica, arial, sans-serif;
 	color:#fff;
 	padding: 20px 40px 20px 20px;
-	font-weight: 700;
 	background:#797979 url(images/plus.png) 85% 55% no-repeat;
 	border:1px solid #000;
 	-moz-border-radius-topright: 20px;
@@ -410,7 +408,7 @@ a.active.trigger {
 
 @media (max-width: 795px) {
 	section h1 {
-	    font-size: 175%; 
+	    font-size: 175%;
 	}
 	section {
 		width:95%;
@@ -437,7 +435,7 @@ a.active.trigger {
 	    text-align: center;
 	    padding: 4px;
 	    text-transform: uppercase;
-	    font-size: 75%; 
+	    font-size: 75%;
 	    border-bottom: thin solid #050b16;
 	    text-decoration: none;
 		-moz-text-shadow: 1px 1px  #050b16;
@@ -458,21 +456,97 @@ a.active.trigger {
 	.leia {
 		display:none;
 	}
-	.secondaryNav {
+	#secondaryNav {
 		display:none;
 	}
 }
 
+/* FLASHCARD CSS *//* click effect */
+
+.section__content {
+  padding-left: 3px;
+}
+
+/**
+ * The cards
+ *
+ * Each card plays home to a front and back. I've set them up as squares here
+ * by using the padding technique, but you may set them up in any dimensions
+ * you like based on your site design.
+ */
+.card {
+  position: relative;
+  float: left;
+  padding-bottom: 25%;
+  width: 24%;
+  text-align: center;
+  margin-top: 1px;
+  padding-left:1px;
+}
+
+.card:nth-child(1) {
+  margin-left: -3px;
+  margin-right: 1px;
+}
+
+.card:nth-child(2),
+.card:nth-child(3) {
+  margin-right: 1px;
+}
+
+/* card fronts and backs */
+.card__front,
+.card__back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card__front,
+.card__back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+}
+
+.card__front {
+  background-color: #274a93;
+}
+
+.card__back {
+  background-color: #1e1e1e;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+/* card text */
+.card__text {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  height: 38%;
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+  line-height: 20px;
+}
 
 
 
+/* click effect */
+.card.effect__click.flipped .card__front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
 
-
-
-
-
-
-
-
-
+.card.effect__click.flipped .card__back {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
 

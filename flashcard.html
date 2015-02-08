@@ -1,0 +1,327 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"/>
+
+<html>
+  <body>
+    <head>
+      <meta charset="UTF-8"/>
+      <link rel="stylesheet" href="style.css" type="text/css"/>
+      <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+      <link rel="shortcut icon" type="image/png" href="http://ruby-wars.com/favicon.png"/>
+      <meta name="description" content="Ruby Wars is a website blog dedicated to my personal journey in learning Ruby and Rails."/>
+      <meta name="keywords" content="Ruby and Rails, Ruby Blog, Ruby Information, Ruby language dictionary, Ruby dictionary"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <title>Ruby Wars | Ruby on Rails Tutorial</title>
+      <!-- pop out jquery starts -->
+      <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.js"></script>
+
+      <script type="text/javascript">
+      $(document).ready(function(){
+        $(".trigger").click(function(){
+          $(".panel").toggle("fast");
+          $(this).toggleClass("active");
+          return false;
+        });
+      });
+      </script>
+      <!-- pop out jquery ends -->
+    </head>
+    <main>
+      <header>
+        <h1>Ruby Wars</h1>
+        <h2>My Ruby and Rails Journal with a Star Wars Twist</h2>
+      </header>
+
+      <nav></nav>
+      <div id="mobilenav"></div>
+
+      <section>
+      <div class="section">
+        <h2 class="section__title">Flashcards</h2>
+        <p>Click the card to flip the answer.</p>
+        <div class="section__content clearfix">
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">@age, @last_name</br>are ____</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">Instance Variables</span>
+            </div>
+          </div><!-- /card -->
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">x, string, __abc__, start_value and firstName are ____</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">Local Variables</span>
+            </div>
+          </div><!-- /card -->
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">A, String, FirstName and STDIN are ____</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">Constants</span>
+            </div>
+          </div><!-- /card -->
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">$population is a ____</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">Global Variable</span>
+            </div>
+          </div>
+        </div><!-- /card -->
+      </div><!-- /section -->
+
+
+      <div class="section">
+        <h2 class="section__title"></h2>
+        <div class="section__content clearfix">
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">class, def, if, </br>__FILE__</br> are all ____</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">Keywords</span>
+            </div>
+          </div><!-- /card -->
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">#{....} is a ____</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">String Interpolation Operator</span>
+            </div>
+          </div><!-- /card -->
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">@@running_total is a ____</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">Class Variable</span>
+            </div>
+          </div><!-- /card -->
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">:venue is a ____</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">Symbol</span>
+            </div>
+          </div>
+        </div><!-- /card -->
+      </div><!-- /section -->
+
+
+      <div class="section">
+        <h2 class="section__title"></h2>
+        <div class="section__content clearfix">
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">The superclase of Class is:</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">Module</span>
+            </div>
+          </div><!-- /card -->
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">Give an example of Single Inheritance</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">Ruby class can only have one superclass</span>
+            </div>
+          </div><!-- /card -->
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">What classes appear at the top of the inheritance tree?</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">Object and BasicObject</span>
+            </div>
+          </div><!-- /card -->
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">Class is both a ____ & a ____</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">Class and a Object</span>
+            </div>
+          </div>
+        </div><!-- /card -->
+      </div><!-- /section -->
+
+
+      <div class="section">
+        <h2 class="section__title"></h2>
+        <div class="section__content clearfix">
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">Objects are both a ____ & a ____</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">Class and a Object</span>
+            </div>
+          </div><!-- /card -->
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">Explain how message receiving is acheived</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">Through the dot operator. The message on the right is sent to the object on the left of the dot.</span>
+            </div>
+          </div><!-- /card -->
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">def method (a,b,c=1)</br>What is being indicated?</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">A default argument of 1</span>
+            </div>
+          </div><!-- /card -->
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">Name 3 ways classes get their methods</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">1) From their superclass</br>2) From the superclass and earlier ancestors</br>3) From their own store of singleton methods</span>
+            </div>
+          </div>
+        </div><!-- /card -->
+      </div><!-- /section -->
+
+
+            <div class="section">
+        <h2 class="section__title"></h2>
+        <div class="section__content clearfix">
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">Local Variables begin with a ____</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">Lowercase or underscore</span>
+            </div>
+          </div><!-- /card -->
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">When and why would you write a class method?</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">When an operation pertaining to a class can't be performed by individual instances of that class.</span>
+            </div>
+          </div><!-- /card -->
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">What is a Class defined and named with?</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">A Class is defined with the Class keyword, and named with Constants.</span>
+            </div>
+          </div><!-- /card -->
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">Explain Rake</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">Comes from Ruby Make. Reads and executes tasks defined in the Rakefile.</span>
+            </div>
+          </div>
+        </div><!-- /card -->
+      </div><!-- /section -->
+
+
+            <div class="section">
+        <h2 class="section__title"></h2>
+        <div class="section__content clearfix">
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">Name 3 setter and getter method attribute types.</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">1) attr_writer</br>2) attr_reader</br>3) attr_accessor</span>
+            </div>
+          </div><!-- /card -->
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">def ticket.price</br> is a ____ method</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">Singleton Method</span>
+            </div>
+          </div><!-- /card -->
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">Define a Method</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">A method is a named and executable routine whoes execution the object has the ability to trigger</span>
+            </div>
+          </div><!-- /card -->
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">____ are the only kind of object that has the power to spawn new objects</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">Classes</span>
+            </div>
+          </div>
+        </div><!-- /card -->
+      </div><!-- /section -->
+
+
+            <div class="section">
+        <h2 class="section__title"></h2>
+        <div class="section__content clearfix">
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">Constants are used for</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">1) To set names of classes</br>2) To set and preserve data values</span>
+            </div>
+          </div><!-- /card -->
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">Boolean States allow you to</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">Endow a object with knowledge of its own availability</span>
+            </div>
+          </div><!-- /card -->
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">What is a Constructors purpose?</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">It is a method who's purpose is to manufacture and return to you a new instance of a class.</span>
+            </div>
+          </div><!-- /card -->
+          <div class="card effect__click">
+            <div class="card__front">
+              <span class="card__text">Explain Instance Methods and their intended use</span>
+            </div>
+            <div class="card__back">
+              <span class="card__text">1) Instance Methods are defined inside of a class.</br> 2) Any instance of the class can call them</span>
+            </div>
+          </div>
+        </div><!-- /card -->
+      </div><!-- /section -->
+
+
+      </section>
+      <section>
+        <p>For best results, view flash cards on Chrome.</p>
+      </section>
+      <!-- pop out navigation starts -->
+      <section id="secondaryNav">
+      </section>
+      <!-- pop out navigation ends -->
+    </main>
+    <footer>
+    </footer>
+
+  </body>
+
+<script src="cta.js"></script>
+</html>
