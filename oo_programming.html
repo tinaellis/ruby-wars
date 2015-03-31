@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"/>
+
+<html>
+  <body>
+    <head>
+      <meta charset="UTF-8"/>
+      <link rel="stylesheet" href="style.css" type="text/css"/>
+      <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+      <link rel="shortcut icon" type="image/png" href="http://ruby-wars.com/favicon.png"/>
+      <meta name="description" content="Ruby Wars is a website blog dedicated to my personal journey in learning Ruby and Rails."/>
+      <meta name="keywords" content="Ruby and Rails, Ruby Blog, Ruby Information, Ruby language dictionary, Ruby dictionary"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <title>Ruby Wars | Ruby on Rails Tutorial</title>
+      <!-- pop out jquery starts -->
+      <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.js"></script>
+      <script type="text/javascript">
+      $(document).ready(function(){
+        $(".trigger").click(function(){
+          $(".panel").toggle("fast");
+          $(this).toggleClass("active");
+          return false;
+        });
+      });
+      </script>
+      <!-- pop out jquery ends -->
+    </head>
+    <main>
+      <header>
+        <h1>Ruby Wars</h1>
+        <h2>My Ruby and Rails Journal with a Star Wars Twist</h2>
+      </header>
+
+      <nav></nav>
+      <div id="mobilenav"></div>
+
+      <section>
+        <div class="leia"></div>
+
+        <h1>Object Oriented Programming</h1>
+        <p></p>
+
+        <div class="content">
+          <article>
+            <h1>OOP</h1>
+            <h2>Classes</h2>
+            <p><strong>Naming </strong>CamelCase</p>
+            <ul><li></li></ul>
+            <p><strong>Declaring </strong>box1 = Box.new</p>
+            <ul><li>We declare objects of a class using new keyword. The above statement declares and object of the class Box.</li></ul>
+
+            <p><strong>Initialize </strong>def initialize</p>
+            <ul><li>The initialize method is useful when you want to initialize some class variables at the time of object creation.</ul></li>
+
+
+            <p><strong>Class Method Defined </strong>def self.methodname()</p>
+            <ul><li>A class method is defined using def self.methodname() which ends with end delimiter and would be called using class name as classname.methodname</li></ul>
+
+            <p><strong>Calling Class Methods </strong>classname.methodname</p>
+            <ul><li></li></ul>
+
+            <p><strong>Class Variables </strong>@@running_total</p>
+            <ul><li>Class variables store information per class hierarchy and follow the same rules as instance variables, except that they start with two at-signs. Class variables are shared between all instances of a class.</li></ul>
+
+            <p><strong>Class Constants </strong>CONSTANT</p>
+            <ul><li>Once a constant is defined, you can not change its value but you can access a constant directly inside a class much like a variable but if you want to access a constant outside of the class then you would have to use classname::constant</li></ul>
+
+            <p><strong>Accessor Methods </strong></p>
+            <ul>
+            <li>def getWidth</li>
+            <li> @width</li>
+            <li>end</li></ul>
+            <p>To make the variables available from outside the class, they must be defined within accessor methods, these accessor methods are also known as a getter methods. <a href="http://www.tutorialspoint.com/ruby/ruby_object_oriented.htm" target="_blank" />Object Oriented Ruby</a></p>
+            <ul><li></li></ul>
+            <p><strong>Setter Methods </strong></p>
+            <ul><li>def setWidth=(value)</li>
+            <li> @width = value</li>
+            <li>end</li></ul>
+            <p>Similar to accessor methods, which are used to access the value of the variables, Ruby provides a way to set the values of those variables from outside of the class using setter method. To use setter method: box.setWidth = 30</p>
+            <ul><li></li></ul>
+
+            <h2>Access Control</h2>
+            <p><strong>Public Methods </strong>default</p>
+            <ul><li>Public methods can be called by anyone. Methods are public by default except for initialize, which is always private.</li></ul>
+
+            <p><strong>Private Methods </strong>private</p>
+            <ul><li>Private methods cannot be accessed, or even viewed from outside the class. Only the class methods can access private members.</li></ul>
+
+            <p><strong>Protected Methods </strong>protected</p>
+            <ul><li>A protected method can be invoked only by objects of the defining class and its subclasses. Access is kept within the family.</li></ul>
+
+
+            <h2>Freezing Objects</h2>
+            <p><strong>Freeze </strong>Object.freeze</p>
+            <ul><li>The freeze method in Object allows us to turn an object into a constant. A frozen object may not be modified: you can't change its instance variables.</li></ul>
+
+            <p><strong>Frozen Check </strong>Object.frozen?</p>
+
+          </article>
+        </div>
+
+        <div class="content">
+          <article>
+            <h1>Resources</h1>
+            <ul><li><a href="http://www.tutorialspoint.com/ruby/ruby_object_oriented.htm" target="_blank" />tutorialspoint - Object Oriented Ruby</a></li>
+            <li><a href="http://zetcode.com/lang/rubytutorial/oop/" target="_blank" />Zetcode OOP Part 1</a></li>
+            <li><a href="http://zetcode.com/lang/rubytutorial/oop2/" target="_blank" />Zetcode OOP Part 2</a></li>
+            <li><a href="http://www.codecademy.com/tracks/ruby" target="_blank" />Codecademy - Object oriented Sections</a></li>
+            <li><a href="http://www.gotealeaf.com/books/oo_ruby" target="_blank" />Tealeaf Academy - Object Oriented Programming with Ruby</a></li></ul>
+          </article>
+        </div>
+      </section>
+      <!-- pop out navigation starts -->
+      <section id="secondaryNav">
+      </section>
+      <!-- pop out navigation ends -->
+    </main>
+
+    <footer></footer>
+  </body>
+  <script src="cta.js"></script>
+</html>
