@@ -156,6 +156,17 @@ section p {
 	font-family: Gadget, sans-serif;
 }
 
+section .starwars p {
+	text-align: center;
+	color: yellow;
+	padding-bottom:5px;
+}
+
+section .starwars h2 {
+	text-align: center;
+	color: yellow;
+}
+
 .content {
 	margin: 20px 50px 20px 0;
 	padding: 10px 0 20px 0;
@@ -180,6 +191,15 @@ section .content-two a {
 section .content-two a:hover {
 	font-size:14px;
 	margin: 0 0 0 20px;
+}
+
+section .content-three {
+	width: 70%;
+	margin: 20px 50px 20px 0;
+	padding: 10px 0 20px 0;
+	background: #000;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
 }
 
 section article {
@@ -415,6 +435,11 @@ a.active.trigger {
 		float:center;
 		padding-left:5%;
 	}
+
+	section .content-three {
+	width: 95%;
+	}
+
 	nav {
 		display:none;
 	}

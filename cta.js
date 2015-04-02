@@ -1,21 +1,15 @@
 document.getElementsByTagName("NAV")[0].innerHTML ='<ul>'+
   '<li><a href="./">Home</a></li>'+
-    '<li><a href="directories">Directories and Files</a></li>'+
-    '<li><a href="lettersnumbers">Letters and Numbers</a></li>'+
-    '<li><a href="rubybits">Ruby Tidbits</a></li>'+
-    '<li><a href="identifiers">Ruby Identifiers</a></li>'+
+    '<li><a href="rubybits">Tidbits</a></li>'+
+    '<li><a href="identifiers">Identifiers</a></li>'+
     '<li><a href="oo_programming">OOP</a></li>'+
-    '<li><a href="resources">More Resources</a></li>'+
   '</ul>';
 
 document.getElementById("mobilenav").innerHTML ='<ul>'+
   '<li><a href="./">Home</a></li>'+
-    '<li><a href="directories">Directories and Files</a></li>'+
-    '<li><a href="lettersnumbers">Letters and Numbers</a></li>'+
-    '<li><a href="rubybits">Ruby Tidbits</a></li>'+
-    '<li><a href="identifiers">Ruby Identifiers</a></li>'+
+    '<li><a href="rubybits">Tidbits</a></li>'+
+    '<li><a href="identifiers">Identifiers</a></li>'+
     '<li><a href="oo_programming">OOP</a></li>'+
-    '<li><a href="resources">More Resources</a></li>'+
   '</ul>';
 
 
